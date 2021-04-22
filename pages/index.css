@@ -26,6 +26,12 @@
 @import url(../blocks/places/__place/places__place.css);
 @import url(../blocks/places/__website/places__website.css);
 @import url(../blocks/places/__paragraph-container/places__paragraph-container.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background-image/cover__background-image.css);
+@import url(../blocks/cover/__text-container/cover__text-container.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
 
 @font-face {
 	src: url(../fonts/Inter-Regular.woff) format('woff'),
