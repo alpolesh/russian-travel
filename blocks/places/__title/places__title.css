@@ -18,3 +18,12 @@
     max-width: 325px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .places__title {
+    font-size: 32px;
+    line-height: 1.09;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

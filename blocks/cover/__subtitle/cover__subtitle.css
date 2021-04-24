@@ -5,3 +5,13 @@
   line-height: 1.22;
   text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+    margin-top: 16px;
+    padding: 0 16px 0;
+    max-width: 256px;
+  }
+}

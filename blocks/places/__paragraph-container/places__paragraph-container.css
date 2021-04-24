@@ -13,3 +13,12 @@
     min-width: 352px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .places__paragraph-container {
+    min-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+}
