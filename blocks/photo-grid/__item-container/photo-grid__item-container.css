@@ -2,3 +2,10 @@
   max-width: 284px;
   max-height: 213px;
 }
+
+@media screen and (max-width: 1279px) {
+  .photo-grid__item-container {
+    max-width: none;
+    max-height: none;
+  }
+}
