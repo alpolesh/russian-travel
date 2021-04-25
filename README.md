@@ -1,23 +1,17 @@
-# Проект 3: Путешествие по России
-
-### Обзор
-* Интро
-* Figma
-* Картинки
-
-**Интро**
-
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
-
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+# Дорогой ревьювер
+## В моей работе есть нюанс, с которым я самостоятельно так и не смог справиться. Секция `photo-grid` реализована через список.
+## Элементы `li` в ней являются обертками для изображений. При этом изображения принимают корректный размер, соответствующий макету.
+## А вот обертка по высоте почему-то превышает изображение на несколько пикселей. Я не могу понять почему, ведь обертка должна получать размеры контента.  При ширине экрана более 1024px я ограничил обертку по высоте свойством `max-height`. 
+## А вот при ширинах менее 1024px эта проблема существует. Пожалуйста, помогите определить проблему.
+ 
+#  
+ 
+# Project "Russian travel"
+### This project is about travelling through the Russia. 
+### The landing page contains a lot of useful information and links to resources that will help to travelling.  
+***
+### Nested BEM was used in the project. Github.com is used as a remote repository.  
+### The code has been verified by https://validator.w3.org/. 
+### The website is adaptive to all main widths of screens and devices. 
+***
+[https://alpolesh.github.io/russian-travel/](https://alpolesh.github.io/russian-travel/)
